@@ -15,6 +15,6 @@ public class DemoController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     @ResponseBody
     public String test(){
-        return "Hello world,明明";
+        return "Hello world,明名名米国";
     }
 }
