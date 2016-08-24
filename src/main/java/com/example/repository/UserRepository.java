@@ -11,5 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public interface UserRepository extends JpaRepository<User,Integer> {
 
-    public User findByPhone(String username);
+    User findByPhone(String username);
+
+
 }
