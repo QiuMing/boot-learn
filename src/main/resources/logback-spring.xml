@@ -24,7 +24,7 @@
    <!-- <logger name="org.springframework.web" level="INFO"/>-->
     <!--<logger name="com.example.DemoController" level="DEBUG"/>-->
 
-    <springProfile name="production">
+    <springProfile name="pro">
         <logger name="com.example.DemoController" level="DEBUG" additivity="false">
             <appender-ref ref="FILE" />
             <appender-ref ref="CONSOLE"/>
