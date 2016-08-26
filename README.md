@@ -16,4 +16,7 @@
     
 * [Upgrading from Spring Boot 1.4.0 M1 更新日志](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-1.4.0-M2-Release-Notes)
 
+## [thymeleaf 实验室](http://itutorial.thymeleaf.org/)
+
+## [thymeleaf 文档](http://www.thymeleaf.org/documentation.html)
 
