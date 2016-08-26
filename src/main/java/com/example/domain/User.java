@@ -1,8 +1,5 @@
 package com.example.domain;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Created by Ming on 2016/8/24.

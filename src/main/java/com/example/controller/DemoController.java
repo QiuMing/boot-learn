@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -23,13 +22,11 @@ public class DemoController {
     private Environment env;
 
     @RequestMapping(value = "/api/hello", method = RequestMethod.GET)
-    @ResponseBody
     public String test(){
         return "Hello world,明名名米国";
     }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    @ResponseBody
     public String log(){
         logger.info("hello logger type={}","info");
         logger.warn("hello logger type={}","warn");
@@ -40,7 +37,6 @@ public class DemoController {
 
 
     @RequestMapping("/testProfile")
-    @ResponseBody
     public String testProfile(){
         return env.getProperty("profile");
     }
