@@ -4,11 +4,11 @@
 
 ## [spring-boot banner](http://www.ekiras.com/2016/02/adding-custom-banner-in-springboot-application.html)
 
-## [spring boot 之 profile]()
+## [spring boot 之 profile]
     
     * mvn clean package -Dmaven.test.skip=true -P prod  
 
-    * mvn  spring-boot  run -P prod
+    * mvn spring-boot:run -Drun.profiles=foo,bar
     
     *  java -jar  ***.jar  --spring.profiles.active=dev
     
@@ -26,3 +26,5 @@
 ## [spring boot h2 配置](https://springframework.guru/using-the-h2-database-console-in-spring-boot-with-spring-security/)
 
 ## [jpa 资料](http://www.ibm.com/developerworks/cn/opensource/os-cn-spring-jpa/)
+
+## [添加  Spring Boot Servlet ](http://blog.csdn.net/catoop/article/details/50501686)

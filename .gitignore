@@ -17,3 +17,6 @@ src/main/resources/rebel.xml
 logs/
 log/
 *.log
+
+# doc
+docs/

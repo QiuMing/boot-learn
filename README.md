@@ -37,8 +37,6 @@ JAVA_OPTS=-Xmx1024m spring run hello.groovy  指定 JAVA 参数运行
 
 * 项目初始化，依赖于start-web、start-test
 
-* 编写 Controller
-
 * 配置logback
 
 * dev-tools 加速
@@ -47,7 +45,9 @@ JAVA_OPTS=-Xmx1024m spring run hello.groovy  指定 JAVA 参数运行
 
 * 使用 thymeleaf 
 
-* 使用 swagger2
+* 使用 swagger2 ,访问地址 ： http://localhost:8090/swagger-ui.html
+
+* Swagger2MarkupTest 中添加生成 markdown 或者 asciidoc 文档方法 
 
 
 

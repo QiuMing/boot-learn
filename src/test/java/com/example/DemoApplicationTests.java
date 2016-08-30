@@ -6,7 +6,6 @@ import com.example.repository.UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
@@ -24,7 +23,6 @@ public class DemoApplicationTests {
 	public void contextLoads() {
 	}
 
-
 	@Test
 	public void test_findAll(){
 		userRepository.save(new User(1,"15626139116","15626139118"));
@@ -35,11 +33,5 @@ public class DemoApplicationTests {
 
 		User test = userRepository.findByPhone("15626139116");
 		System.out.println(test.getPassword());
-	}
-
-	@Rollback(false)
-	@Test
-	public void test(){
-
 	}
 }
